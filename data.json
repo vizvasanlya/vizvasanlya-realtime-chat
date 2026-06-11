@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-realtime-chat",
+  "title": "Realtime Team Chat",
+  "subtitle": "Rooms, presence, moderation, and decisions",
+  "eyebrow": "Collaboration MVP",
+  "initial": "RT",
+  "accent": "#0891b2",
+  "description": "Coordinate team conversations with room status, moderation signals, message health, and decision tracking.",
+  "metrics": [
+    {
+      "label": "Total rooms",
+      "delta": "Collab",
+      "type": "count"
+    },
+    {
+      "label": "Live rooms",
+      "delta": "Active",
+      "type": "count"
+    },
+    {
+      "label": "Healthy rate",
+      "delta": "Ops",
+      "type": "percent"
+    },
+    {
+      "label": "Critical rooms",
+      "delta": "Monitor",
+      "type": "count"
+    },
+    {
+      "label": "Engagement value",
+      "delta": "Usage",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Live",
+    "Monitored",
+    "Scheduled",
+    "Archived",
+    "Blocked"
+  ],
+  "resources": [
+    {
+      "title": "Product launch room",
+      "owner": "Launch team",
+      "status": "Live",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 28000,
+      "detail": "Central room for launch decisions, blockers, and approvals.",
+      "notes": "Pin final checklist before release."
+    },
+    {
+      "title": "Customer support swarm",
+      "owner": "Support",
+      "status": "Monitored",
+      "priority": "High",
+      "dueDate": "2026-06-16",
+      "value": 15600,
+      "detail": "Realtime escalation channel for urgent customer issues.",
+      "notes": "Track response SLA and handoffs."
+    },
+    {
+      "title": "Design critique room",
+      "owner": "Design",
+      "status": "Scheduled",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 7200,
+      "detail": "Room for design reviews and decision capture.",
+      "notes": "Collect async comments before meeting."
+    },
+    {
+      "title": "Moderation review queue",
+      "owner": "Trust",
+      "status": "Monitored",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 19000,
+      "detail": "Review flagged messages and update moderation rules.",
+      "notes": "Audit false positives every Friday."
+    },
+    {
+      "title": "Engineering incident bridge",
+      "owner": "SRE",
+      "status": "Blocked",
+      "priority": "Critical",
+      "dueDate": "2026-06-14",
+      "value": 31000,
+      "detail": "Bridge for production incidents and rollback coordination.",
+      "notes": "Add postmortem owner and timeline."
+    },
+    {
+      "title": "All-hands archive",
+      "owner": "People",
+      "status": "Archived",
+      "priority": "Low",
+      "dueDate": "2026-06-26",
+      "value": 3400,
+      "detail": "Archive decisions and recordings from company meetings.",
+      "notes": "Tag action items for follow-up."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Enabled decision pinning.",
+      "at": "2026-06-10T12:00:00Z"
+    },
+    {
+      "text": "Added moderation queue.",
+      "at": "2026-06-08T16:15:00Z"
+    }
+  ]
+}
